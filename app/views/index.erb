@@ -1,1 +1,4 @@
-index page
+<% @posts.each do |post| %>
+<%= post.name %>
+<%= post.conent %>
+<% end %>
